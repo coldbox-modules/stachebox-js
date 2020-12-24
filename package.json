@@ -1,0 +1,33 @@
+{
+  "name": "stachebox",
+  "version": "0.0.1",
+  "description": "Stachebox logger module for Javascript",
+  "main": "src/stachebox.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coldbox-modules/stachebox-js.git"
+  },
+  "keywords": [
+    "stachebox",
+    "buglog",
+    "errors",
+    "logging",
+    "coldbox"
+  ],
+  "author": "Jon Clausen <jclausen@ortussolutions.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/coldbox-modules/stachebox-js/issues"
+  },
+  "homepage": "https://github.com/coldbox-modules/stachebox-js#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "error-stack-parser": "^2.0.6"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0"
+  }
+}
