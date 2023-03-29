@@ -1,4 +1,4 @@
-const Stachebox = require("./stachebox");
+const Stachebox = require("stachebox");
 const path = require("path");
 
 const logger = new Stachebox( { token : "XYZ" } );
